@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+</head>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>hola</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">One new friend request</a>
+      <a href="#" class="w3-bar-item w3-button">John Doe posted on your wall</a>
+      <a href="#" class="w3-bar-item w3-button">Jane likes your post</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+    <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/290549305_1028368064478497_7317680927820665222_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGaj60nfUjyy5rNV1sHmhkBW3BjwkjY6vpbcGPCSNjq-htk5hOAcIrD-0znmzmoeSjIcKNfHfEorBNPkfCj-bQY&_nc_ohc=YIDWTCcsXrUAX-Qp5mI&_nc_ht=scontent.fbkk10-1.fna&oh=03_AVL2MYGyloQGimaDfmIJ7oWJtgSYqh_aFH4y_z_zfaFPGA&oe=62EBE608" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+  </a>
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">My Profile</h4>
+         <p class="w3-center"><img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.6435-9/160932123_1065027447239782_794884800227158650_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeH6fxic8pBOTtxJ5M1M2aDKr2SY8oSh-rqvZJjyhKH6ulOUXFa-wc7BX3hhlPOsw-oqiZVe1EVBo11h4b0xtg9v&_nc_ohc=YFCmZcjQuCAAX9qBKXL&_nc_ht=scontent.fbkk10-1.fna&oh=00_AT91QpxgKOE-lkDcDijRS6UXTdMO0BNVxVSyykB-2Av8rw&oe=62ED4DB8" class="w3-circle" style="height:106px;width:106px" alt="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.6435-9/160932123_1065027447239782_794884800227158650_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeH6fxic8pBOTtxJ5M1M2aDKr2SY8oSh-rqvZJjyhKH6ulOUXFa-wc7BX3hhlPOsw-oqiZVe1EVBo11h4b0xtg9v&_nc_ohc=YFCmZcjQuCAAX9qBKXL&_nc_ht=scontent.fbkk10-1.fna&oh=00_AT91QpxgKOE-lkDcDijRS6UXTdMO0BNVxVSyykB-2Av8rw&oe=62ED4DB8"></p>
+         <hr>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Hello</p>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> My Name is Phetsuda Jampa-on </p>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> My Nick Name is Noei</p>
+         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Padon, Udontani</p>
+         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> January 15, 2002</p>
+        </div>
+      </div>
+      <br>
+      
+      <!--Social Media Buttons -->
+     <div class="footer-social-links">
+  <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+  <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+  <a href="#" title="Google+" target="_blank"><i class="fa fa-google-plus"></i></a>
+  <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
+  <a href="#" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a>
+</div>
+      
+      <!-- Interests --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Interests</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">Anime</span>
+            <span class="w3-tag w3-small w3-theme-d4">Manhwa</span>
+            <span class="w3-tag w3-small w3-theme-d3">cat</span>
+            <span class="w3-tag w3-small w3-theme-d2">Games</span>
+            <span class="w3-tag w3-small w3-theme-d1">Friends</span>
+            <span class="w3-tag w3-small w3-theme">Games</span>
+            <span class="w3-tag w3-small w3-theme-l1">Friends</span>
+            <span class="w3-tag w3-small w3-theme-l2">Food</span>
+            <span class="w3-tag w3-small w3-theme-l3">Design</span>
+            <span class="w3-tag w3-small w3-theme-l4">Art</span>
+            <span class="w3-tag w3-small w3-theme-l5">Photos</span>
+          </p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Alert Box -->
+      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+          <i class="fa fa-remove"></i>
+        </span>
+        <p><strong>Hey!</strong></p>
+        <p>तुम्हाला प्यारा
+          👋Hello bro.
+          ⭐long time know see.(≧▽≦).</p>
+      </div>
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+    
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <h6 class="w3-opacity">what are you thinking ?</h6>
+              <p contenteditable="true" class="w3-border w3-padding">Status: I..... </p>
+              <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.6435-9/160932123_1065027447239782_794884800227158650_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeH6fxic8pBOTtxJ5M1M2aDKr2SY8oSh-rqvZJjyhKH6ulOUXFa-wc7BX3hhlPOsw-oqiZVe1EVBo11h4b0xtg9v&_nc_ohc=YFCmZcjQuCAAX9qBKXL&_nc_ht=scontent.fbkk10-1.fna&oh=00_AT91QpxgKOE-lkDcDijRS6UXTdMO0BNVxVSyykB-2Av8rw&oe=62ED4DB8" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">1 min</span>
+        <h4>Me</h4><br>
+        <hr class="w3-clear">
+        <p>I know you’re sad and tired
+          You’ve got nothing left to give
+          But you’ll find another life to live
+          I know you’ll get over it.😔</p>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+              <img src="https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/293820316_161618996399810_4763500981124002553_n.jpg?stp=cp1_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGDTUnyxHMYI1tfhbhQH4qrb1SP5_Cmc-JvVI_n8KZz4jmqSNJmAmKMRVWYrD-33O28v1czrwhd6edZbTsqVUh7&_nc_ohc=fC6EDLvoMmYAX-zh_c2&_nc_oc=AQnjLqRuFSKtftoSkWUdj-CkuLtKdrZJaC5GSFYD1o9piKq4wOGZ1BxF6V-fC4kY78U&_nc_ht=scontent.fcnx3-1.fna&oh=00_AT8y16n-M1uiMyf8DPGTBY-WUwx_5cyGR33qiCsDcUdeoQ&oe=62D6571E" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+            </div>
+            <div class="w3-half">
+              <img src="/w3images/nature.jpg" style="width:100%" alt="" class="w3-margin-bottom">
+          </div>
+        </div>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.6435-9/160932123_1065027447239782_794884800227158650_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeH6fxic8pBOTtxJ5M1M2aDKr2SY8oSh-rqvZJjyhKH6ulOUXFa-wc7BX3hhlPOsw-oqiZVe1EVBo11h4b0xtg9v&_nc_ohc=YFCmZcjQuCAAX9qBKXL&_nc_ht=scontent.fbkk10-1.fna&oh=00_AT91QpxgKOE-lkDcDijRS6UXTdMO0BNVxVSyykB-2Av8rw&oe=62ED4DB8" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">16 min</span>
+        <h4>Me</h4><br>
+        <hr class="w3-clear">
+        <p>สวัสดีค่ะ ชื่อเล่นชื่อ เนย นะคะ เรียกใครถูกด้วยครับเพื่อนๆ ชอบเรียก "กะทิ" หนูชอบอนิเมะมาก ดูจนตาเปียกตาเเฉะ ยังไงก็ ยินดีที่ได้รู้จักนะคะ  .</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+      </div>  
+
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.6435-9/160932123_1065027447239782_794884800227158650_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_eui2=AeH6fxic8pBOTtxJ5M1M2aDKr2SY8oSh-rqvZJjyhKH6ulOUXFa-wc7BX3hhlPOsw-oqiZVe1EVBo11h4b0xtg9v&_nc_ohc=YFCmZcjQuCAAX9qBKXL&_nc_ht=scontent.fbkk10-1.fna&oh=00_AT91QpxgKOE-lkDcDijRS6UXTdMO0BNVxVSyykB-2Av8rw&oe=62ED4DB8" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">32 min</span>
+        <h4>Me</h4><br>
+        <hr class="w3-clear">
+        <p>เมื่อผมโดนเรียกเเต่มันไม่พูดสักทีLOL : </p>
+        <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/288964692_3162835254030752_1193105715486485307_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHmghWpdlrHxO8pVxU9ekV8klX3S7eyYRqSVfdLt7JhGsdcr_1kzbr02CCC9QAJELXczTaV1Zh7R_mRVs8schEm&_nc_ohc=QxZCq8SvrSEAX-_nyTJ&tn=NldfhTNmWkLotQsG&_nc_ht=scontent.fbkk10-1.fna&oh=03_AVK3WYTWXeoa38qGVfLoy6TaU8DW-vU5Py3vuBYqMxYIRA&oe=62EC0C37" style="width:100%" class="w3-margin-bottom">
+        <p>.</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+      </div> 
+      
+    <!-- End Middle Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Today in the past
+            1 year ago:</p>
+          <img src="data:image/jpeg;base64,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" alt="Forest" style="width:100%;">
+          <p><strong>Spy x Family </strong></p>
+          <p>7 July 2022</p>
+          <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Friend Request</p>
+          <img src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t39.30808-6/277589171_1303870906688767_7368063072466548557_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_eui2=AeE7zalAO0YPQLIsOV0VJoP_MttdWmVcb84y211aZVxvzuNKdLubM7n5aslICBH-GNhBSy4aQI3nfTAE2wjlOl2a&_nc_ohc=U8j-pTaTh4AAX-v_D-i&_nc_ht=scontent.fbkk10-1.fna&oh=00_AT9CEeLRUQ5s6RXMchki2XJ5v3OEiUbzNf5q9k1vNjdKUQ&oe=62CBB0CE" alt="Avatar" style="width:50%"><br>
+          <span>คนสกล 'ไม่กินหมานะครับ</span>
+          <div class="w3-row w3-opacity">
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
+            </div>
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+     
+      </div>
+      
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-d3 w3-padding-16">
+  <h5>Footer</h5>
+</footer>
+
+<footer class="w3-container w3-theme-d5">
+  <p>Facebook : <a href="https://www.facebook.com/profile.php?id=100011976106874" target="_blank">ม่า 'มี๊ (just Drunk)</a></p>
+</footer>
+ 
+
+<footer class="w3-container w3-theme-d5">
+  <p> github : <a href="https://github.com/Safezon" target="_blank">Safezone</a></p>
+</footer>
+<script>
+// Accordion
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-theme-d1";
+  } else { 
+    x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-theme-d1", "");
+  }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html> 
